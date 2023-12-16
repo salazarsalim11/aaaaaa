@@ -20,7 +20,8 @@ const apiEndpoint = "api.consumet.org";
 
 // Randomly set player iframes to these video onLoad
 var youtubeLinks = [
-    "https://www.youtube.com/embed/RXvfrH8fFXw"
+    "https://www.youtube.com/embed/RXvfrH8fFXw
+  "
 ];
 var randomLink = youtubeLinks[Math.floor(Math.random() * youtubeLinks.length)];
 videoPlayer.src = randomLink;
